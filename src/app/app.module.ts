@@ -3,14 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MatButtonModule, MatCheckboxModule } from '@angular/material';
+import { ButtonComponent } from './button/button.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatButtonModule,
+    MatCheckboxModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
