@@ -24,3 +24,19 @@ h1{
 
 // 
 
+.animatedText{
+    animation: fadeAndScale .3s ease-in;
+}
+
+@keyframes fadeAndSacale {
+    from{
+        opacity: 0;
+
+    }
+    to{
+
+    }
+
+}
+
+
