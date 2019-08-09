@@ -28,13 +28,13 @@ h1{
     animation: fadeAndScale .3s ease-in;
 }
 
-@keyframes fadeAndSacale {
+@keyframes fadeAndScale {
     from{
         opacity: 0;
 
     }
     to{
-
+        opacity: 1;
     }
 
 }
