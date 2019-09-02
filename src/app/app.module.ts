@@ -12,7 +12,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { HomeComponent } from './components/home/home.component';
-
+import { CalendarComponent } from './components/calendar/calendar.component';
 //services
 import {DataService} from './services/data.service';
 
@@ -23,7 +23,8 @@ import {DataService} from './services/data.service';
     NavComponent,
     AboutComponent,
     ContactComponent,
-    HomeComponent
+    HomeComponent,
+    CalendarComponent
   ],
   imports: [
     BrowserModule,
