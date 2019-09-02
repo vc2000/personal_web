@@ -11,6 +11,9 @@ export class ContactComponent implements OnInit {
   submitted = false;
   success = false;
 
+  a: number = 0.259;
+
+
   constructor(
     private formBuilder: FormBuilder
   ) { }
